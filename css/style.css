@@ -1,0 +1,111 @@
+/*
+purple hex #77037b
+dark purple hex #210062
+aqua hex #009fbd
+light papyrus hex #fefdfa
+black hex #000000
+denim hex #222c67
+*/
+
+body {
+  background-color: #fefdfa;
+  font-family: 'Georgia', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.8;
+  color: #210062;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 350;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+picture {
+  width: 100%;
+}
+
+a {
+  color: #222c67;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #222c67;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #009fbd;
+  text-decoration: none;
+}
+
+a:active {
+  color: #77037b;
+  text-decoration: underline;
+}
+
+img.logo {
+  width: 5%;
+}
+
+svg.logo {
+  width: 3%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #222c67;
+  color: #fefdfa;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #222c67;
+  transition: 0.2s opacity;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #009fbd;
+  color: #000;
+}
+
+/* haven't learned about inline block yet. so I separated this button that isn't inline in HTML */
+
+.button.out {
+  color: #fefdfa;
+}
+
+.button.cv {
+  background-color: #210062;
+  text-transform: uppercase;
+  border-bottom: 2px solid #210062;
+}
+
+.button.cv:hover,
+.button.cv:focus {
+  background-color: #77037b;
+  color: #fefdfa;
+}

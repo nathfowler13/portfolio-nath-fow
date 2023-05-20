@@ -7,6 +7,10 @@ black hex #000000
 denim hex #222c67
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fefdfa;
   font-family: 'Georgia', sans-serif;
@@ -15,6 +19,42 @@ body {
   line-height: 1.8;
   color: #210062;
 }
+
+header {
+  position: fixed;
+  text-align: center;
+  background-color: #fefdfa;
+  padding: 10px 0;
+  width: 100%;
+  border: solid #222c67 1px;
+  box-shadow: 5px 5px 41px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 41px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 41px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  padding-top: 340px;
+}
+
+/* layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.about.row {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #210062;
+}
+
+#work .row {
+  margin: 25px 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #210062;
+}
+
+/* headers */
 
 h1,
 h2,
@@ -26,11 +66,17 @@ h3 {
 h1 {
   font-size: 3em;
   font-weight: 600;
+  text-align: center;
 }
 
 h2 {
   font-size: 2.5em;
   font-weight: 350;
+  text-align: center;
+}
+
+main > div > div > h2 {
+  text-align: left;
 }
 
 h3 {
@@ -38,13 +84,39 @@ h3 {
   font-weight: 300;
 }
 
+/* images, pictures, and svgs */
+
 img {
+  margin: 40px 0;
   width: 100%;
 }
 
 picture {
+  margin: 40px 0;
   width: 100%;
 }
+
+img.logo {
+  width: 5%;
+  min-width: 250px;
+  margin: 0;
+}
+
+.medium.size {
+  max-width: 400px;
+}
+
+svg.logo {
+  width: 3%;
+  min-width: 40px;
+}
+
+svg.logo:hover,
+svg.logo:focus {
+  border: #222c67 2px;
+}
+
+/* links */
 
 a {
   color: #222c67;
@@ -67,20 +139,72 @@ a:active {
   text-decoration: underline;
 }
 
-img.logo {
-  width: 5%;
+/* navigation bar */
+
+nav {
+  display: inline-block;
+  width: 100%;
 }
 
-svg.logo {
-  width: 3%;
+nav > ul {
+  list-style-type: none;
+  padding: 0;
 }
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #210062;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  color: #009fbd;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:active {
+  color: #77037b;
+}
+
+nav > ul > li > a:visited {
+  color: #210062;
+}
+
+/* hero section layout */
+
+#hero {
+  display: inline-block;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* footer socials */
+
+footer > div > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer > div > ul > li {
+  display: inline-block;
+  padding: 0;
+}
+
+/* buttons */
 
 .button {
   display: inline-block;
   background-color: #222c67;
   color: #fefdfa;
   font-weight: 200;
-  padding: 10px;
+  padding: 5px;
   border-radius: 3px;
   border-bottom: 2px solid #222c67;
   transition: 0.2s opacity;
@@ -91,8 +215,6 @@ svg.logo {
   background-color: #009fbd;
   color: #000;
 }
-
-/* haven't learned about inline block yet. so I separated this button that isn't inline in HTML */
 
 .button.out {
   color: #fefdfa;

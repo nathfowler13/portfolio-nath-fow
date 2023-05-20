@@ -13,9 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
-	<main>
+	<body>
 		<header>
-			<div>
+			<div class="container">
                 <a href="index.html">
 					<picture>
 					  <source srcset="img/general/img-logo-1x.png" media="(max-width:30px)"/>
@@ -31,93 +31,92 @@
 				</nav>
 			</div>
 		</header>
-
+		<main>
 		<!--the heading-->
-		<div>
 			<div>
-				<h1>About</h1>
+				<div class="container">
+					<h1>About</h1>
+				</div>
 			</div>
-		</div>
-
-		<div>
 			<div>
-				<picture>
-					<source srcset="img/general/profile-pic-1x.jpg" media="max-width:350px"/>
-					<img src="img/general/profile-pic-2x.jpg" alt="Photo of Nathalie looking out to the ocean"/>
-				</picture>
+				<div class="container">
+					<picture>
+						<source srcset="img/general/profile-pic-1x.jpg" media="max-width:350px"/>
+						<img src="img/general/profile-pic-2x.jpg" class="medium size" alt="Photo of Nathalie looking out to the ocean"/>
+					</picture>
 
 				<!--into the content-->
 
-				<div> 
 					<div> 
-						<!--column 1-->
-						<h2>My Story</h2>
-						<p>
+						<div class="container"> 
+							<!--column 1-->
+							<h2>My Story</h2>
+							<p>
 							Hello. I am an aspiring UX Designer that began my journey after coming across a social media ad. Just let me explain real quick. <br>For the past 7 years, I have been in the biotechnology space working in either manufacturing or late-stage R&D and validation. In both sectors, I found my flow when working through a set protocol. As I began to mature in my career, I learned to look up and ask, is there a better way to do this? Around the same time, a social media ad for a career change to UX found me. Wanting to know what the heck UX is, I found myself reading through articles and listening to podcasts to learn more about the field. I began to recognize an overlap in my personal values and a tenet of UX: to serve on behalf of others.<br>I am excited that I have embarked on this journey of life-long learning, and I look forward to collaborating with design teams, users, and business stakeholders to create lasting, well-designed user experiences.
-						</p>
-						<a href="files/linked-in-profile-compressed.pdf" target="_blank" class="button cv">Download my resume</a>
-					</div>
-
-					<div> 
-						<!--column 2-->
-						<h2>Skills & Tools</h2>
-
-						<div> 
-							<!--row 1-->
-							<h3>Relevant Skills</h3>
-							<h4>Experience Strategy</h4>
-							<ul>
-								<li>Developing the Business Requirements Document</li>
-								<li>Creating User Stories</li>
-							</ul>
-							<h4>Information Architecture</h4>
-							<ul>
-								<li>Creating Sitemaps</li>
-								<li>Content Auditing</li>
-								<li>Creating Task and User Flows</li>
-							</ul>
-							<h4>UX Research Methods</h4>
-							<ul>
-								<li>Usability Testing</li>
-								<li>Competitive Analysis</li>
-								<li>Closed Card Sorting</li>
-								<li>SWOT Analysis</li>
-								<li>User Interviewing</li>
-								<li>Building Design Personas</li>
-							</ul>
-							<h4>Interaction Design</h4>
-							<ul>
-								<li>Wireframing and Prototyping</li>
-								<li>Maintaining Organized Documentation</li>
-								<li>Developing a Style Guide</li>
-							</ul>
-							<h4>Programming Langauges</h4>
-							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-							</ul>
+							</p>
+							<a href="files/linked-in-profile-compressed.pdf" target="_blank" class="button cv">Download my resume</a>
 						</div>
 
-						<div> 
+						<div class="container"> 
+							<!--column 2-->
+							<h2>Skills & Tools</h2>
+							<div class="about row"> 
+								<!--row 1-->
+								<h3>Relevant Skills</h3>
+								<h4>Experience Strategy</h4>
+								<ul>
+									<li>Developing the Business Requirements Document</li>
+									<li>Creating User Stories</li>
+								</ul>
+								<h4>Information Architecture</h4>
+								<ul>
+									<li>Creating Sitemaps</li>
+									<li>Content Auditing</li>
+									<li>Creating Task and User Flows</li>
+								</ul>
+								<h4>UX Research Methods</h4>
+								<ul>
+									<li>Usability Testing</li>
+									<li>Competitive Analysis</li>
+									<li>Closed Card Sorting</li>
+									<li>SWOT Analysis</li>
+									<li>User Interviewing</li>
+									<li>Building Design Personas</li>
+								</ul>
+								<h4>Interaction Design</h4>
+								<ul>
+									<li>Wireframing and Prototyping</li>
+									<li>Maintaining Organized Documentation</li>
+									<li>Developing a Style Guide</li>
+								</ul>
+								<h4>Programming Langauges</h4>
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+								</ul>
+							</div>
+
+							<div class="about row"> 
 							<!--row 2-->
-							<h3>Design Tools I Use</h3>
-							<ul>
-								<li>Adobe XD</li>
-								<li>Marvel</li>
-								<li>Optimal Sort</li>
-								<li>Figma</li>
-							</ul>
+								<h3>Design Tools I Use</h3>
+								<ul>
+									<li>Adobe XD</li>
+									<li>Marvel</li>
+									<li>Optimal Sort</li>
+									<li>Figma</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</main>
+		</main>
+	</body>
 
 <!--the footer -->
 	<footer id="contact">
-		<div>
+		<div class="container">
 			<h2>Get in touch</h2>
 			<p>Would you like to discuss my work further? Contact me! You can call me at <a href="tel:555-2483">555-2483</a> or if you can 
 				<a href="mailto:natfow13@yahoo.com" class="button">email me.</a>
@@ -168,7 +167,7 @@
 				</li>
 			</ul>
 		</div>
-		<div>
+		<div class="container">
 			<p>Copyright Nathalie Fowler 2023</p>
 		</div>
 	</footer>

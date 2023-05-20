@@ -13,9 +13,9 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
-	<main>
+	<body>
 		<header>
-			<div>
+			<div class="container">
                 <a href="index.html">
                   	<picture>
 					    <source srcset="img/general/img-logo-1x.png" media="(max-width:30px)"/>
@@ -25,179 +25,181 @@
 				<nav>
 					<ul>
 						<li><a href="./harmony.html">Work</a></li>
-						<li><a href="./about.html">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+					    <li><a href="./about.html">About</a></li>
+					    <li><a href="#contact">Contact</a></li>
+				    </ul>
+			    </nav>
+		    </div>
+	    </header>
 
-		<!--the heading-->
-		<div>
-			<div>
-				<h1>Harmony App</h1>
-			</div>
-		</div>
+		    <!--the heading-->
+        <main>
+		    <div>
+			    <div class="container">
+				    <h1>Harmony App</h1>
+			    </div>
+		    </div>
 
-		<div>
-			<div>
-                <picture>
-                    <source srcset="img/hrmny/img_hmpg_Harmony_1x" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_hmpg_Harmony_2x.png" alt="screenshot of multiple wireframes in Adobe XD"/>
-                </picture>
-            </div>
-            <div>
-                <p>
+		    <div id="harmony">
+			    <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_hmpg_Harmony_1x" media="(max-width:350px)"/>
+					    <img src="img/hrmny/img_hmpg_Harmony_2x.png" alt="screenshot of multiple wireframes in Adobe XD"/>
+                    </picture>
+                </div>
+                <div class="container">
+                    <p>
                     This is a walk-through of a student project I completed to learn the UX process in which I was the sole designer. I was responsible for the end-to-end design, from defining the problem to UX research, information architecture to wireframing and prototyping, and ending with the final UI. Over the course of twelve (12) months, I used multiple design tools such as Figma, Adobe XD, and Optimal Sort to create a final product. Continue reading to learn about my design process with relation to this student project.
-                </p>
-            </div>
-            <div>
-                <h2>The Brief</h2>
-                <p>In the United States, professionals are pressured to be "always on" or have a "grind-til-I-die" mentality to feel as though they are successful in their career. This often leaves people with little time or energy to maintain their health and wellness outside of work. Here is the brief: design a responsive web application that will assist busy professionals in managing their physical and mental health.
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_BRD_Mission_1x.png" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_Port_BRD_Mission_2x.png" alt="mission statement: to create a healthier and happier society by providing individuals with a health and wellness management system."/>
-                </picture>
-                <h2>Defining the Problem</h2>
-                <p>I started out with defining the problem. I did this by asking myself questions such as:
-                </p>
-                <ul>
-                    <li>Who are these busy professionals?</li>
-                    <li>What do they do over the course of an average week (at home and at work)?</li>
-                    <li>What are their work schedules? Keep in mind that not everyone works "9 to 5".</li>
-                    <li>What are the potential obstacles keeping them from successfully managing their physical and mental health?</li>
-                </ul>
-                <p>Equipped with these answers, I created problem statements to start defining the users' potential needs, focusing on the statement below to begin guiding me through the design process.
-                </p>
-                <div>
-                    <p>A [person with an emotion regulation disorder] needs [a way to keep track of their emotions from day to day], to [determine root causes for negative and positive emotions].
                     </p>
                 </div>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_Comp Analy_1x.png" media="(max-width:350px)"/>
-                    <img src="img/hrmny/img_Port_Comp Analy_2x.png" alt="images of competitor apps"/>
-                </picture>
-                <h2>Competitive Analysis</h2>
-                <p>To conduct a competitive analysis on other apps in the space, I researched and clicked through health management apps. Many were health insurance based or private companies that partner with health physicians. I conducted a SWOT analysis on these apps and noticed that they had either limited interactivity from the user into the app, or when there was high input needed from the user, there was unengaging UI, leading to uninspired experiences.
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_BRD_Scope_1x.png" media="(max-width:350px)"/>
-                    <img src="img/hrmny/img_Port_BRD_Scope_2x.png" alt="scope section of my BRD"/>
-                </picture>
-                <h2>Hypothesis</h2>
-                <p>At this point, I am starting to understand the problem and am formulating ideas on how to solve it. I need to create a document with my original ideas and determine my scope. I developed a Business Requirements Document, complete with an executive summary, functional requirements, and the scope of the project. It was very helpful to have a visual list of what to build and a summary of the vision for the app to stay focused throughout the design process.
-                </p>
-                <p>I created user stories to solidify the functional requirements I collected in the Business Requirements Document. This step was to check that the requirements were not frivolous, instead the requirements need to be useful to the users.
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_Affinity Map_1x.png" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_Port_Affinity Map_2x.png" alt="image of post its grouped by affinity"/>
-                </picture>
-                <h2>User Interviews</h2>
-                <p>To understand users' current pain points with meeting their mental and physical health goals, I conducted in-person user interviews. I set goals for this round of interviews and tailored my questions to extract the information needed, while keeping the questions open enough for dialogue. I can't anticipate all of the users' needs so keeping space for the interviewees to flow, allows me to gain insights that I may not have anticipated. 
-                </p>
-                <p>Main insights
-                </p>
-                <ul>
-                    <li>Young professionals are more likely to use apps for organizing their work life, not their personal life.</li>
-                    <li>Most interviewees are externally motivated, with an emphasis on not letting others down.</li>
-                    <li>Entry and mid-level professionals value their personal time and state that work should fit around their life, not the other way around.</li>
-                </ul>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_Persona1_1x.png" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_Port_Persona1_2x.png" alt="primary design persona"/>
-                </picture>
-                <h2>Design Personas</h2>
-                <p>After surveying and interviewing the target user group, I created design personas that would represent the different users that I need to design for throughout the full design process. I decided to focus on Emiliana as the main persona.
-                </p>
-                <p>Focusing on Emiliana as the primary persona, I created a user journey map to visualize what leads her into the app, so that I can design with this in mind.
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_Low_to_High_1x.png" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_Port_Low_to_High_2x.png" alt="low fidelity and medium fidelity wireframe examples"/>
-                </picture>
-                <h2>Wireframing</h2>
-                <p>Once the structure was determined, I started sketching out how the interface would look. I focused first on where the features would be located on each screen and how these screens relate to each other, following the framework of the task flows. I iterated on these sketches then created a mid-fidelity clickable prototype to test with users. 
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_Test Plan_1x.png" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_Port_Test Plan_2x.png" alt="screenshot of my test plan"/>
-                </picture>
-                <h2>Usability Testing</h2>
-                <p>I think I have created an intuitive app that will help users manage their mental and physical wellness, but I need to test out the design and gather user feedback. Before launching blindly into usability testing, I created a test plan that included:
-                </p>
-                <ul>
-                    <li>Test goals</li>
-                    <li>Test objectives</li>
-                    <li>Success and failure metrics</li>
-                    <li>Direct and scenario tasks</li>
-                    <li>Test script</li>
-                </ul>
-                <p>Following my test plan as a guide, I conducted in-person, moderated usability tests with 6 participants. These sessions were recorded so that I could go back and capture more in depth notes for each session. I analyzed the data using the rainbow spreadsheet technique to find usability issues present in most participants. I classified problems based on the Nielsen severity scale. 
-                </p>
-                <p>I gathered the most critical findings into a test report, where I presented the critical issues discovered through this round of usability testing, explained why fixing these issues was important, and addressed how to fix the issues in the next iteration.
-                </p>
-                <picture>
-                    <source srcset="img/hrmny/img_Rainbow Spreadsheet_1x.png" media="(max-width:350px)"/>
-					<img src="img/hrmny/img_Port_Rainbow Spreadsheet_2x.png" alt="screenshot of data organized into a rainbow spreadsheet"/>
-                </picture>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_UX Iteration_1x.png" media="(max-width:350px)"/>
-                    <img src="img/hrmny/img_Port_UX Iteration_2x.png" alt="example of a feature update according to the test report findings"/>
-                </picture>
-                <h2>UI Iterations</h2>
-                <p>Armed with the usability test findings, I iterated upon the mid-fidelity prototype to address the critical usability issues. Only 1 of the 6 usability test participants was able to find the “Stats” feature when it was in the “Settings” list, so I made it more visible by bringing it out of the “Settings” list and onto the intermediary widget page. 
-                </p>
-                <p>While updating the screens based off of the usability findings, I began building out the UI by creating a high-fidelity prototype in Adobe XD. I implemented Design Principles through color choice, feature placement, and feature hierarchies to enhance the intuitiveness of the design. I updated screens to fit into a multi-column grid layout to make the design more visually pleasing and to make the design responsive across screen sizes. Throughout the iterative UI design process, I kept my design persona in mind as well as accessibility concerns. I maintained a simple design strategy with an emphasis on delivering a focused experience, providing value to the users.
-                </p>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_Feedback_1x.png" media="(max-width:350px)"/>
-                    <img src="img/hrmny/img_Port_Feedback_2x.png" alt="screenshot of peer feedback"/>
-                </picture>
-                <p>Before “finalizing” my design, I needed to get peer feedback. I reached out to other students in the course for their advice and suggestions on changes I could make to improve the usability of my design. I enjoyed collaborating with my peers and hearing their input. I iterated my design again based off of the feedback that still fit into the purpose behind my design.
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_sg_Color_1x.png" media="(max-width:350px)"/>
-                    <img src="img/hrmny/img_Port_sg_Color_2x.png" alt="color scheme for style guide"/>
-                </picture>
-                <h2>Design Documentation</h2>
-                <p>I continuously maintained standardized documentation. To practice preparing for design hand off to the developer team, I created a style guide and exports of the UI components used in the prototype in 1x, 2x, and 3x file sizes. I would prefer to keep in constant communication with the dev team throughout the design process to save potential wasted time designing an element that cannot be programmed due to a technology or budget constraint.
-                </p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="img/hrmny/img_Port_All Screens_1x.png" media="(max-width:350px)"/>
-                    <img src="img/hrmny/img_Port_All Screens_2x.png" alt="screenshot of all wireframes created in Adobe XD"/>
-                </picture>
-                <h2>Reflections</h2>
-                <p>Through this learning project, I gained an understanding of my design process. This experience has shifted my thinking patterns in all aspects of my life. I am applying principles that I learned here in my current role as a Scientist. From competitive and SWOT analysis of products in the space to how I communicate processes for younger scientists that I informally mentor. I have discovered my passion for information architecture and look forward to growing in all 4 pillars of UX in the future. If you would like to check out my prototype for mobile, click on the image below. 
-                </p>
-            </div>
-		</div>
-	</main>
+                <div class="container">
+                    <h2>The Brief</h2>
+                    <p>In the United States, professionals are pressured to be "always on" or have a "grind-til-I-die" mentality to feel as though they are successful in their career. This often leaves people with little time or energy to maintain their health and wellness outside of work. Here is the brief: design a responsive web application that will assist busy professionals in managing their physical and mental health.
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_BRD_Mission_1x.png" media="(max-width:350px)"/>
+					    <img src="img/hrmny/img_Port_BRD_Mission_2x.png" alt="mission statement: to create a healthier and happier society by providing individuals with a health and wellness management system."/>
+                    </picture>
+                    <h2>Defining the Problem</h2>
+                    <p>I started out with defining the problem. I did this by asking myself questions such as:
+                    </p>
+                    <ul>
+                        <li>Who are these busy professionals?</li>
+                        <li>What do they do over the course of an average week (at home and at work)?</li>
+                        <li>What are their work schedules? Keep in mind that not everyone works "9 to 5".</li>
+                        <li>What are the potential obstacles keeping them from successfully managing their physical and mental health?</li>
+                    </ul>
+                    <p>Equipped with these answers, I created problem statements to start defining the users' potential needs, focusing on the statement below to begin guiding me through the design process.
+                    </p>
+                    <div>
+                        <p>A [person with an emotion regulation disorder] needs [a way to keep track of their emotions from day to day], to [determine root causes for negative and positive emotions].
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_Comp Analy_1x.png" media="(max-width:350px)"/>
+                        <img src="img/hrmny/img_Port_Comp Analy_2x.png" alt="images of competitor apps"/>
+                    </picture>
+                    <h2>Competitive Analysis</h2>
+                    <p>To conduct a competitive analysis on other apps in the space, I researched and clicked through health management apps. Many were health insurance based or private companies that partner with health physicians. I conducted a SWOT analysis on these apps and noticed that they had either limited interactivity from the user into the app, or when there was high input needed from the user, there was unengaging UI, leading to uninspired experiences.
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_BRD_Scope_1x.png" media="(max-width:350px)"/>
+                        <img src="img/hrmny/img_Port_BRD_Scope_2x.png" alt="scope section of my BRD"/>
+                    </picture>
+                    <h2>Hypothesis</h2>
+                    <p>At this point, I am starting to understand the problem and am formulating ideas on how to solve it. I need to create a document with my original ideas and determine my scope. I developed a Business Requirements Document, complete with an executive summary, functional requirements, and the scope of the project. It was very helpful to have a visual list of what to build and a summary of the vision for the app to stay focused throughout the design process.
+                    </p>
+                    <p>I created user stories to solidify the functional requirements I collected in the Business Requirements Document. This step was to check that the requirements were not frivolous, instead the requirements need to be useful to the users.
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_Affinity Map_1x.png" media="(max-width:350px)"/>
+					    <img src="img/hrmny/img_Port_Affinity Map_2x.png" alt="image of post its grouped by affinity"/>
+                    </picture>
+                    <h2>User Interviews</h2>
+                    <p>To understand users' current pain points with meeting their mental and physical health goals, I conducted in-person user interviews. I set goals for this round of interviews and tailored my questions to extract the information needed, while keeping the questions open enough for dialogue. I can't anticipate all of the users' needs so keeping space for the interviewees to flow, allows me to gain insights that I may not have anticipated. 
+                    </p>
+                    <p>Main insights
+                    </p>
+                    <ul>
+                        <li>Young professionals are more likely to use apps for organizing their work life, not their personal life.</li>
+                        <li>Most interviewees are externally motivated, with an emphasis on not letting others down.</li>
+                        <li>Entry and mid-level professionals value their personal time and state that work should fit around their life, not the other way around.</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_Persona1_1x.png" media="(max-width:350px)"/>
+					    <img src="img/hrmny/img_Port_Persona1_2x.png" alt="primary design persona"/>
+                    </picture>
+                    <h2>Design Personas</h2>
+                    <p>After surveying and interviewing the target user group, I created design personas that would represent the different users that I need to design for throughout the full design process. I decided to focus on Emiliana as the main persona.
+                    </p>
+                    <p>Focusing on Emiliana as the primary persona, I created a user journey map to visualize what leads her into the app, so that I can design with this in mind.
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_Low_to_High_1x.png" media="(max-width:350px)"/>
+		    			<img src="img/hrmny/img_Port_Low_to_High_2x.png" alt="low fidelity and medium fidelity wireframe examples"/>
+                    </picture>
+                    <h2>Wireframing</h2>
+                    <p>Once the structure was determined, I started sketching out how the interface would look. I focused first on where the features would be located on each screen and how these screens relate to each other, following the framework of the task flows. I iterated on these sketches then created a mid-fidelity clickable prototype to test with users. 
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_Test Plan_1x.png" media="(max-width:350px)"/>
+		    			<img src="img/hrmny/img_Port_Test Plan_2x.png" alt="screenshot of my test plan"/>
+                    </picture>
+                    <h2>Usability Testing</h2>
+                    <p>I think I have created an intuitive app that will help users manage their mental and physical wellness, but I need to test out the design and gather user feedback. Before launching blindly into usability testing, I created a test plan that included:
+                    </p>
+                    <ul>
+                        <li>Test goals</li>
+                        <li>Test objectives</li>
+                        <li>Success and failure metrics</li>
+                        <li>Direct and scenario tasks</li>
+                        <li>Test script</li>
+                    </ul>
+                    <p>Following my test plan as a guide, I conducted in-person, moderated usability tests with 6 participants. These sessions were recorded so that I could go back and capture more in depth notes for each session. I analyzed the data using the rainbow spreadsheet technique to find usability issues present in most participants. I classified problems based on the Nielsen severity scale. 
+                    </p>
+                    <p>I gathered the most critical findings into a test report, where I presented the critical issues discovered through this round of usability testing, explained why fixing these issues was important, and addressed how to fix the issues in the next iteration.
+                    </p>
+                    <picture>
+                        <source srcset="img/hrmny/img_Rainbow Spreadsheet_1x.png" media="(max-width:350px)"/>
+					    <img src="img/hrmny/img_Port_Rainbow Spreadsheet_2x.png" alt="screenshot of data organized into a rainbow spreadsheet"/>
+                    </picture>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_UX Iteration_1x.png" media="(max-width:350px)"/>
+                        <img src="img/hrmny/img_Port_UX Iteration_2x.png" alt="example of a feature update according to the test report findings"/>
+                    </picture>
+                    <h2>UI Iterations</h2>
+                    <p>Armed with the usability test findings, I iterated upon the mid-fidelity prototype to address the critical usability issues. Only 1 of the 6 usability test participants was able to find the “Stats” feature when it was in the “Settings” list, so I made it more visible by bringing it out of the “Settings” list and onto the intermediary widget page. 
+                    </p>
+                    <p>While updating the screens based off of the usability findings, I began building out the UI by creating a high-fidelity prototype in Adobe XD. I implemented Design Principles through color choice, feature placement, and feature hierarchies to enhance the intuitiveness of the design. I updated screens to fit into a multi-column grid layout to make the design more visually pleasing and to make the design responsive across screen sizes. Throughout the iterative UI design process, I kept my design persona in mind as well as accessibility concerns. I maintained a simple design strategy with an emphasis on delivering a focused experience, providing value to the users.
+                    </p>
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_Feedback_1x.png" media="(max-width:350px)"/>
+                        <img src="img/hrmny/img_Port_Feedback_2x.png" alt="screenshot of peer feedback"/>
+                    </picture>
+                    <p>Before “finalizing” my design, I needed to get peer feedback. I reached out to other students in the course for their advice and suggestions on changes I could make to improve the usability of my design. I enjoyed collaborating with my peers and hearing their input. I iterated my design again based off of the feedback that still fit into the purpose behind my design.
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_sg_Color_1x.png" media="(max-width:350px)"/>
+                        <img src="img/hrmny/img_Port_sg_Color_2x.png" alt="color scheme for style guide"/>
+                    </picture>
+                    <h2>Design Documentation</h2>
+                    <p>I continuously maintained standardized documentation. To practice preparing for design hand off to the developer team, I created a style guide and exports of the UI components used in the prototype in 1x, 2x, and 3x file sizes. I would prefer to keep in constant communication with the dev team throughout the design process to save potential wasted time designing an element that cannot be programmed due to a technology or budget constraint.
+                    </p>
+                </div>
+                <div class="container">
+                    <picture>
+                        <source srcset="img/hrmny/img_Port_All Screens_1x.png" media="(max-width:350px)"/>
+                        <img src="img/hrmny/img_Port_All Screens_2x.png" alt="screenshot of all wireframes created in Adobe XD"/>
+                    </picture>
+                    <h2>Reflections</h2>
+                    <p>Through this learning project, I gained an understanding of my design process. This experience has shifted my thinking patterns in all aspects of my life. I am applying principles that I learned here in my current role as a Scientist. From competitive and SWOT analysis of products in the space to how I communicate processes for younger scientists that I informally mentor. I have discovered my passion for information architecture and look forward to growing in all 4 pillars of UX in the future. If you would like to check out my prototype for mobile, click on the image below. 
+                    </p>
+                </div>
+		    </div>
+        </main>
+	</body>
 
 <!--the footer -->
 	<footer id="contact">
-		<div>
+		<div class="container">
 			<h2>Get in touch</h2>
 			<p>Would you like to discuss my work further? Contact me! 
                 You can call me at <a href="tel:555-2483">555-2483</a> or if you can 
@@ -249,7 +251,7 @@
 				</li>
 			</ul>
 		</div>
-		<div>
+		<div class="container">
 			<p>Copyright Nathalie Fowler 2023</p>
 		</div>
 	</footer>

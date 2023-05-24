@@ -326,6 +326,11 @@ footer > div > ul > li {
     clear: both;
     display: table;
   }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
 
 /* Large devices - 1440px or larger */

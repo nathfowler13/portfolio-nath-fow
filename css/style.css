@@ -240,10 +240,21 @@ footer > div > ul > li {
 }
 
 @keyframes tree-change {
-  0% { fill: #eead26; }
-  25% { fill: #c32315; }
-  50% { fill: #90ee90; }
-  100% { fill: #087830; }
+  0% {
+    fill: #eead26;
+  }
+
+  25% {
+    fill: #c32315;
+  }
+
+  50% {
+    fill: #90ee90;
+  }
+
+  100% {
+    fill: #087830;
+  }
 }
 
 .spire {
@@ -255,8 +266,13 @@ footer > div > ul > li {
 }
 
 @keyframes spire-change {
-  from { fill: #febf48; }
-  to { fill: #fbfb00; }
+  from {
+    fill: #febf48;
+  }
+
+  to {
+    fill: #fbfb00;
+  }
 }
 
 .obelisk {
@@ -268,8 +284,13 @@ footer > div > ul > li {
 }
 
 @keyframes obelisk-change {
-  from { transform: translate(0, 0); }
-  to { transform: translate(20px, 0); }
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(20px, 0);
+  }
 }
 
 /* Medium devices - 640px or larger */
@@ -309,7 +330,7 @@ footer > div > ul > li {
 
 /* Large devices - 1440px or larger */
 
-@media only screen and (min-width: 1440px) and (max-width: 1980px) {
+@media only screen and (min-width: 1440px) {
   body {
     font-size: 24px;
   }
@@ -336,13 +357,12 @@ footer > div > ul > li {
   .col-lg-5 {
     width: 41.65%;
     float: left;
-    padding: 0 20px;
+    padding-left: 40px;
   }
 
   .col-lg-7 {
     width: 58.31%;
     float: left;
-    padding: 0 20px;
   }
 
   .row::after {
@@ -352,7 +372,7 @@ footer > div > ul > li {
   }
 
   .container {
-    max-width: 1350px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 }
